@@ -84,7 +84,7 @@ h4 {
   margin-left: 0.25rem;
 }
 .header {
-  background: url(./img/football-767.jpg) no-repeat;
+  background: url(./img/football_767.jpg) no-repeat;
   background-size: 140%;
   background-position: 50% 25%;
   height: 568px;
@@ -264,7 +264,7 @@ li:before {
   
 }
 .bottom {
-  background: url("./img/game-767.jpg") no-repeat;
+  background: url("./img/game_767.jpg") no-repeat;
   background-size: 145%;
   background-position: 100% 100%;
   height: 568px;
@@ -340,7 +340,7 @@ li:before {
   .header {
     height: 960px;
     width: inherit;
-    background: url(./img/football-1280.jpg) no-repeat;
+    background: url(./img/football_1280.jpg) no-repeat;
     background-size: 170%;
     background-position: 50% 30%;
   }
@@ -587,7 +587,7 @@ li:before {
   letter-spacing: 0.03rem;
 }
 .bottom {
-  background: url("./img/game-1280.jpg") no-repeat;
+  background: url("./img/game_1280.jpg") no-repeat;
   background-size: 180%;
   background-position: 100% 100%;
   height: 960px;
@@ -667,7 +667,7 @@ li:before {
   .header {
     height: 960px;
     width: inherit;
-    background: url(./img/football-1920.jpg) no-repeat;
+    background: url(./img/football_1920.jpg) no-repeat;
   }
   .layer {
     display: flex;
@@ -912,7 +912,7 @@ li:before {
   letter-spacing: 0.03rem;
 }
 .bottom {
-  background: url("./img/game-1280.jpg") no-repeat;
+  background: url("./img/game_1280.jpg") no-repeat;
   background-size: 180%;
   background-position: 100% 100%;
   height: 960px;
