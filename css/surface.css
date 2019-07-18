@@ -340,7 +340,7 @@ li:before {
   .header {
     height: 960px;
     width: inherit;
-    background: url(./img/football_1280.jpg) no-repeat;
+    background: url(../img/football_1280.jpg) no-repeat;
     background-size: 170%;
     background-position: 50% 30%;
   }
