@@ -144,6 +144,7 @@ ol{
   background-color: #fafafa;
   counter-reset: myCounter;
   display: inline-block;
+  width: 100%;
 }
 
 li{
@@ -210,8 +211,8 @@ li:before {
   width: 100vw;
 }
 .wallpaper {
-  height: 350px;
-  display: inline-block;
+  height: 350px;  
+  width: 100%;
 }
 .content__box {
   position: relative;
