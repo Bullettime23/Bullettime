@@ -83,7 +83,7 @@ h4 {
   margin-left: 0.25rem;
 }
 .header {
-  background: url(https://i.ibb.co/pxSq8tV/football_767.jpg) no-repeat;
+  background: url(../img/football_767.jpg) no-repeat;
   background-size: 140%;
   background-position: 50% 25%;
   height: 568px;
@@ -251,7 +251,7 @@ li:before {
   width: 80%;
 }
 .bottom {
-  background: url("https://i.ibb.co/QcY2Znz/game_767.jpg") no-repeat;
+  background: url("../img/game_767.jpg") no-repeat;
   background-size: 145%;
   background-position: 100% 100%;
   height: 568px;
@@ -321,7 +321,7 @@ li:before {
   }
   .header {
     height: 960px;
-    background: url(https://i.ibb.co/cX4TcV2/football_1280.jpg) no-repeat;
+    background: url(../img/football_1280.jpg) no-repeat;
     background-size: 170%;
     background-position: 50% 30%;
   }
@@ -513,7 +513,7 @@ li:before {
     letter-spacing: 0.03rem;
   }
   .bottom {
-    background: url("https://i.ibb.co/8BJsQmk/game_1280.jpg") no-repeat;
+    background: url("../img/game_1280.jpg") no-repeat;
     background-size: 180%;
     background-position: 100% 100%;
     height: 960px;
@@ -579,9 +579,10 @@ html {
     margin-bottom: 1.875rem;
     letter-spacing: 0.05em;  
   }
-  .header {
+  .header {    
     height: 960px;
-    background: url(https://i.ibb.co/MVH9KJm/football_1920.jpg) no-repeat;
+    background: url(../img/football_1920.jpg) no-repeat;
+    background-size: 100%;
   }
   .layer {
     flex-direction: column;  
@@ -731,6 +732,7 @@ html {
   .src_brows {
     object-fit: cover;
     height: 100%;
+    width: 100%;
   }
   .active, .work {
     display: flex;
@@ -803,7 +805,7 @@ html {
     width: 78%;
   }
   .bottom {
-    background: url("https://i.ibb.co/Y2DXnJY/game_1920.jpg") no-repeat;
+    background: url("../img/game_1920.jpg") no-repeat;
     background-size: 180%;
     background-position: 100% 100%;
     height: 965px;
@@ -812,12 +814,13 @@ html {
     align-items: center;
   }
   .table {
+    
+    display: block;
     margin: 11.5rem 0 0 9px;
-    width: 46%;
+    width: 883px;
     height: 145px;
     column-count: 2;
     column-gap: 0;
-    overflow: hidden;
   }
   .logo2 {
     align-self: center; 
@@ -835,8 +838,7 @@ html {
     margin: 0;
     padding: 0;
   }
-  .download, .show {
-        
+  .download, .show {        
     white-space: nowrap;
     text-align: left;
   }
