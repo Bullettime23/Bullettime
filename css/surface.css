@@ -3,11 +3,8 @@
   padding: 0;
 }
 html {
-  font-family: 'Open sans', sans-serif;  
+  font-family: 'Open sans', sans-serif;
 }
-body {
-  margin: auto;
-} 
 .contlogo1 {
   margin-top: 2.125rem;
   width: 164px;
@@ -46,8 +43,7 @@ h4 {
   display: inline;
   margin-left: 0.625rem;
   margin-bottom: 1.875rem;
-  letter-spacing: 0.02em;
-  
+  letter-spacing: 0.02em;  
 }
 .buttons {   
   display: flex;
@@ -57,6 +53,7 @@ h4 {
   width: 87.5%;  
   align-self: center;
   margin-top: 5.3rem;
+  padding-bottom: 5.1875rem;
 }
 .button1, .button2 {
   display: flex;
@@ -86,16 +83,12 @@ h4 {
   background: url("../img/football_767.jpg") no-repeat;
   background-size: 140%;
   background-position: 50% 25%;
-  height: 568px;
 }
 .layer {
   display: flex;
   color: white;
-  flex-direction: column;  
-  min-height: 570px;
-  width: 100vw;
+  flex-direction: column;
   background-color: rgba(27, 26, 58, 0.9);
-  width: 100%;
   height: 100%;
 }
 .headline {
@@ -106,7 +99,7 @@ h4 {
 .football {
   width: inherit;
   position: relative;
-  height: 298px;
+  padding-bottom: 14.1875rem;
 }
 .footballer {
   position: absolute;
@@ -116,19 +109,16 @@ h4 {
   bottom: -54px;
 }
 .connection {
-  height: 212px;
   padding: 4.625rem 8% 3.25rem 6.25% ;
 }
 .collaboration {
-  padding: 3.2rem 6% 3.5rem 6.25%;
+  padding: 3.2rem 6% 3.25rem 6.25%;
   background-color: #f5f4f9;
-  height: 263px;
 }
 .growth {
   color: black;
-  height: 228px;
   background-color: #5e42b0;
-  padding: 3.25rem 8% 3.5rem 6.25%;
+  padding: 3.25rem 8% 3.25rem 6.25%;
 }
 .g-text {  
   color: white;
@@ -146,7 +136,7 @@ ol {
 li{
   box-sizing: border-box;
   list-style-type: none;
-  }
+}
 
 li:before {
   border-bottom: 4px solid #5e42b0;
@@ -168,7 +158,7 @@ li:before {
 .basketball {
   width: inherit;
   position: relative;
-  height: 298px;
+  padding-bottom: 14.3125rem;
 }
 .basketballa {
   position: absolute;
@@ -190,20 +180,15 @@ li:before {
 .players div {
   box-sizing: border-box;
 }
-.players .connection {
-  height: 250px; 
-}
-.players .collaboration {
-  height: 192px;
-}
 .players .growth {
-  height: 189px;
   color: #7155bd;
   background-color: #090c35;
   padding-top: 3rem;
 }
 .src_brows {
-  max-width: 100%;
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
 }
 .wallpaper {
   position: relative;
@@ -213,7 +198,7 @@ li:before {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -12px;
+  bottom: -7px;
   left: 1.25rem;
   height: 70px;
   width: 70px;
@@ -223,15 +208,6 @@ li:before {
   font-weight: bold;
   color: white;
   border-bottom: solid #8f7bc8 3px;
-}
-.content__box1 {
-  height: 187px;
-}
-.content__box2 {
-  height: 169px;
-}
-.content__box3 {
-  height: 200px;
 }
 .headquote {
   margin-left: 1.25rem;
@@ -246,15 +222,21 @@ li:before {
   word-spacing: 0.1rem;
   text-align: left;
   letter-spacing: 0.035em;
+  padding-bottom: 4.6875rem;
+}
+.content__box1 .headquote{
+  margin-top: 1.25rem;
 }
 .content__box1 .text__content {
   width: 80%;
 }
+.content__box3 .text__content{
+  padding-bottom: 4rem;
+}
 .bottom {
-  background: url("../img/game_767.jpg") no-repeat;
+  background: url"../img/game_767.jpg") no-repeat;
   background-size: 145%;
   background-position: 100% 100%;
-  height: 568px;
 }
 .table {
   display: flex;
@@ -292,16 +274,19 @@ li:before {
 }
 .bottom .buttons {
   margin-top: 4.425rem;
+  padding-bottom: 0.125rem;
 }
 .bottom .contlogo1 {
   margin-top: 5.025rem;
+  padding-bottom: 0.625rem;
 } 
-@media (min-width: 768px) and (max-width: 1919px) {
-  html {
+@media (min-width: 768px) and (max-width: 960px) {
+  html {    
     font-size: 24px;
   }
   h1 {
     font-size: 3.3333rem;
+    color: #e7e7e7;
   }
   h2 {  
     font-size: 2.6rem;
@@ -317,21 +302,19 @@ li:before {
     display: inline;
     margin-left: 0.28rem;
     margin-bottom: 1.875rem;
-    letter-spacing: 0.05em;  
+    letter-spacing: 0.05em;
+    color: #c1c1c1;  
   }
   .header {
-    height: 960px;
     background: url("../img/football_1280.jpg") no-repeat;
     background-size: 170%;
     background-position: 50% 30%;
   }
   .layer {
-    flex-direction: column;  
-    min-height: 570px;
+    flex-direction: column;
     width: 100vw;
     background-color: rgba(27, 26, 58, 0.9);
     width: 100%;
-    height: 100%;
   }
   .contlogo1 {
      margin-top: 1.6rem;
@@ -349,6 +332,7 @@ li:before {
   }
   .buttons { 
     margin-top: 12.5rem;
+    padding-bottom: 3.8rem;
   }
   .button1, .button2 {
     border-radius: 10rem;
@@ -389,6 +373,7 @@ li:before {
   .football {
     position: relative;
     height: 1px;
+    padding-bottom: 0;
   }
   .footballer {
     height: 280px;    
@@ -398,17 +383,14 @@ li:before {
     bottom: -312px;
   }
   .connection {
-    height: 281px;
-    padding: 5.45rem 4% 3.25rem 37.2%;
+    padding: 5.45rem 4% 1rem 37.2%;
     margin-left: 0.375rem;
   }
   .collaboration {
-    padding: 1.3rem 5% 3.5rem 38.2%;
-    height: 236px;
+    padding: 1.3rem 5% 0.75rem 38.2%;
   }
   .growth {
-    height: 180px;
-    padding: 1.3rem 2% 3.5rem 38.2%;
+    padding: 1.3rem 2% 0.9rem 38.2%;
   }
   li{
     list-style-type: none;
@@ -433,6 +415,7 @@ li:before {
   }
   .basketball {
     height: 1px;
+    padding-bottom: 0;
   }
   .basketballa {
     height: 518px;
@@ -449,24 +432,23 @@ li:before {
     text-align: left;
     letter-spacing: 0.035em;
     width: 100%;
+    padding-bottom: 0.5rem;
   }
   .players div {
     box-sizing: border-box;
   }
   .players .connection {
-    height: 310px;
-    padding: 5.625rem 45% 4.125rem 3.25%;
+    padding: 5.625rem 45% 0.675rem 3.25%;
   }
   .players .collaboration {
-    height: 181px;
-    padding: 1.375rem 45% 4.125rem 4.25%;
+    padding: 1.375rem 45% 0.75rem 4.25%;
   }
   .players .growth {
-    height: 181px;
-    padding: 1.375rem 40% 4.125rem 4.25%;
+    padding: 1.375rem 40% 0.75rem 4.25%;
   }
   .bgimage {
     width: 100%;
+    height: 585px;
   }
   .n__container { 
     display: flex;
@@ -474,7 +456,7 @@ li:before {
     justify-content: center;
     position: absolute;
     left: 4.4%;
-    bottom: -19px;
+    bottom: -20px;
     height: 116px;
     width: 116px;
     background-color: #5e42b0;
@@ -483,17 +465,8 @@ li:before {
     border-bottom: solid #8f7bc8 6px;
     margin-bottom: 5px;
   }
-  .active div .n__container {    
-    bottom: -29px;
-  }
-  .content__box1 {
-    height: 273px;
-  }
-  .content__box2 {
-    height: 279px;
-  }
-  .content__box3 {
-    height: 315px;
+  .active section .n__container {    
+    bottom: -30px;
   }
   .headquote {
     margin-top: 47px;
@@ -511,12 +484,18 @@ li:before {
     word-spacing: 0.1rem;
     text-align: left;
     letter-spacing: 0.03rem;
+    padding-bottom: 4.1rem;
+  }
+  .content__box2 .text__content {
+    padding-bottom: 4.4rem;
+  }
+  .content__box3 .text__content {
+     padding-bottom: 4.7rem;
   }
   .bottom {
-    background: url("../img/game_1280.jpg") no-repeat;
+    background: url"../img/game_1280.jpg") no-repeat;
     background-size: 180%;
     background-position: 100% 100%;
-    height: 960px;
   }
   .logo2 {
     width: 114px;
@@ -554,14 +533,16 @@ li:before {
   }
   .bottom .contlogo1 {
     margin-top: 2.15rem;
+    padding-bottom: 0.925rem;
   }
 } 
-@media (min-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px) {
 html {
     font-size: 20px;
   }
   h1 {
     font-size: 4rem;
+    color: #e7e7e7;
   }
   h2 {  
     font-size: 4.5rem;
@@ -579,14 +560,12 @@ html {
     margin-bottom: 1.875rem;
     letter-spacing: 0.05em;  
   }
-  .header {    
-    height: 960px;
+  .header {
     background: url("../img/football_1920.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
   }
   .layer {
-    flex-direction: column;  
-    min-height: 570px;
+    flex-direction: column;
     background-color: rgba(27, 26, 58, 0.9);
   }
   .contlogo1 {
@@ -605,6 +584,7 @@ html {
   }
   .buttons { 
     margin-top: 10.1rem;
+    padding-bottom: 5.5rem;
   }
   .button1, .button2 {
     border-radius: 10rem;
@@ -645,6 +625,7 @@ html {
   .football {
     position: relative;
     height: 1px;
+    padding-bottom: 0;
   }
   .footballer {
     height: 280px;    
@@ -654,17 +635,14 @@ html {
     bottom: -217px;
   }
   .connection {
-    height: 326px;
-    padding: 9.2rem 4% 3.25rem 52.5%;
+    padding: 9.2rem 4% 2.65rem 52.5%;
     margin-left: 0;
   }
   .collaboration {
-    padding: 2.4rem 10% 3.5rem 52.5%;
-    height: 250px;
+    padding: 2.4rem 10% 2.7rem 52.5%;
   }
   .growth {
-    height: 222px;
-    padding: 2.4rem 10% 3.5rem 52.5%;
+    padding: 2.4rem 10% 2.7rem 52.5%;
   }
   li{
     list-style-type: none;
@@ -690,43 +668,42 @@ html {
   }
   .basketball {
     height: 1px;
+    padding-bottom: 0;
   }
   .basketballa {
     height: 518px;
     width: 435px;
     margin-left: -444px;
     left: 65%;  
-    bottom: -451px;   
+    bottom: -451px;
   }
   .content__text {
     margin-top: 0.75rem;
-    line-height: 1.5em;
+    line-height: 1.4em;
     font-size: 1rem;
     word-spacing: 0.012em;
     text-align: left;
-    letter-spacing: 0.01em;
-    font-weight: bolder;
+    letter-spacing: 0.03em;
+    font-weight: 600;
   }
   .players div {
     box-sizing: border-box;
   }
   .players .connection {
-    height: 354px;
-    padding: 9.125rem 50% 0 9.99%;
+    padding: 9.125rem 50% 2.7rem 10%;
   }
   .players .collaboration {
-    height: 230px;
-    padding: 2.475rem 40% 4.125rem 9.99%;
+    padding: 2.475rem 40% 4rem 10%;
   }
   .players .collaboration .content__text {
     margin-top: 1.2rem;
   }
   .players .growth {
-    height: 195px;
-    padding: 2.475rem 40% 4.125rem 9.99%;
+    padding: 2.475rem 40% 2.8rem 10%;
   }
   .wallpaper {
-    height: 730px;
+    min-height: 730px;
+    height: inherit;
     width: 50%;
   }
   .src_brows {
@@ -758,7 +735,7 @@ html {
     left: -84px;
   }
   .content__box1, .content__box2, .content__box3 {
-    height: 730px;
+    min-height: 730px;
     width: 50%;
     flex-direction: column;
     flex-wrap: wrap; 
@@ -807,14 +784,12 @@ html {
   .bottom {
     background: url("../img/game_1920.jpg") no-repeat;
     background-size: 180%;
-    background-position: 100% 100%;
-    height: 965px;
+    background-position: 100%;
   }
   footer .layer {
     align-items: center;
   }
-  .table {
-    
+  .table {    
     display: block;
     margin: 11.5rem 0 0 9px;
     width: 883px;
@@ -860,7 +835,8 @@ html {
     margin-top: 7.25rem;
   }
   .bottom .contlogo1 {
-    margin-top: 13rem;
+    margin-top: 12.75rem;
     align-self: center;
+    padding-bottom: 2.4rem;
   }
 } 
