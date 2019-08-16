@@ -630,7 +630,7 @@ html {
   .footballer {
     height: 280px;    
     width: 435px;
-    left: 552px;
+    left: 28.75%;
     margin-left: -161px;
     bottom: -217px;
   }
@@ -685,6 +685,9 @@ html {
     text-align: left;
     letter-spacing: 0.03em;
     font-weight: 600;
+  }
+  .players {
+    overflow: hidden;
   }
   .players div {
     box-sizing: border-box;
