@@ -536,7 +536,7 @@ li:before {
     padding-bottom: 0.925rem;
   }
 } 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px){
 html {
     font-size: 20px;
   }
