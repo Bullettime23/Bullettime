@@ -234,7 +234,7 @@ li:before {
   padding-bottom: 4rem;
 }
 .bottom {
-  background: url"../img/game_767.jpg") no-repeat;
+  background: url("../img/game_767.jpg") no-repeat;
   background-size: 145%;
   background-position: 100% 100%;
 }
@@ -493,7 +493,7 @@ li:before {
      padding-bottom: 4.7rem;
   }
   .bottom {
-    background: url"../img/game_1280.jpg") no-repeat;
+    background: url("../img/game_1280.jpg") no-repeat;
     background-size: 180%;
     background-position: 100% 100%;
   }
