@@ -688,7 +688,7 @@ html {
   }
   .players {
     overflow: hidden;
-  }
+   }
   .players div {
     box-sizing: border-box;
   }
